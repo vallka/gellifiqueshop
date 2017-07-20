@@ -1,12 +1,30 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.gellifique.justshop" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Just Shop</name>
+    <name>GellifiQue Shop</name>
     <description>
-        A blank PhoneGap app.
+        GellifiQue Shop
     </description>
     <author email="support@vallka.com" href="http://vallka.com">
-        PhoneGap Team
+        GellifiQue Team
     </author>
     <content src="index.html" />
-    <access origin="*" />
+
+    <!-- App requested permission -->
+    <preference name="permissions" value="none"/>
+
+    <!-- PLUGINS * PLUGINS * PLUGINS -->
+    <plugin name="cordova-plugin-device"         source="npm" spec="1.0.1" />
+    <plugin name="cordova-plugin-whitelist"      source="npm" spec="1.0.0" />
+
+    <!-- WHITELIST * WHITELIST * WHITELIST -->
+    <!-- https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md -->
+    <allow-navigation href="http://*.gellifique.co.uk/" />
+    <allow-navigation href="http://fonts.googleapis.com/" />
+    <allow-navigation href="http://www.google-analytics.com/" />
+    <allow-navigation href="https://oss.maxcdn.com/" />
+    <allow-navigation href="https://*.facebook.com/" />
+    <allow-navigation href="https://*.twitter.com/" />
+    <allow-navigation href="https://*.instagram.com/" />
+    <!-- <allow-intent href="*" /> -->
+    <access origin="*" /> <!-- Required for iOS9 -->
 </widget>
