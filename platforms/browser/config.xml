@@ -1,12 +1,23 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.gellifique.justshop" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Just Shop</name>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>GellifiQue Shop</name>
     <description>
-        A blank PhoneGap app.
+        GellifiQue Shop
     </description>
     <author email="support@vallka.com" href="http://vallka.com">
-        PhoneGap Team
+        GellifiQue Team
     </author>
     <content src="index.html" />
+    <allow-navigation href="http://*.gellifique.co.uk/" />
+    <allow-navigation href="http://fonts.googleapis.com/" />
+    <allow-navigation href="http://www.google-analytics.com/" />
+    <allow-navigation href="https://oss.maxcdn.com/" />
+    <allow-navigation href="https://*.facebook.com/" />
+    <allow-navigation href="https://*.twitter.com/" />
+    <allow-navigation href="https://*.instagram.com/" />
     <access origin="*" />
+    <preference name="permissions" value="none" />
 </widget>
