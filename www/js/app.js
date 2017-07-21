@@ -12,7 +12,7 @@ var app = {
             // http://coenraets.org/blog/2013/09/phonegap-and-cordova-with-ios-7/
             document.body.style.marginTop = "20px";
         } else if (device.platform == 'Android') {
-            // Get rid of 300ms delay 
+            // Get rid of 300ms delay
             document.addEventListener('DOMContentLoaded', function() { FastClick.attach(document.body); }, false);
         } else if (device.platform == 'browser') {
             console.log("You are using a brower.");
@@ -38,20 +38,8 @@ setTimeout(function() {
     },
     2000);
 
-// Note: this is created last with the hope that the entire DOM has loaded.
-// If needed, we could wrap this with a function.
-// The best time to load this binding is after the `deviceready` event has fired.
-// 
-var  isVisible = 0; // if element initially hidden, then this to zero (0), else one (1).
-
-$('#toggle').on('click', function() {
-    console.log("isVisible:" + isVisible );
-    if (isVisible) {
-        $('#togglePane').addClass('hide');
-        isVisible = 0;
-    } else {
-        $('#togglePane').removeClass('hide');
-        isVisible = 1;
-    }
+$(document).ready(function(){
+  $('iframe').on("load",function(){
+    $('#loading').hide();
+  });
 });
-
