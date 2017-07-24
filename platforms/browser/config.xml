@@ -18,6 +18,9 @@
     <allow-navigation href="https://*.facebook.com/" />
     <allow-navigation href="https://*.twitter.com/" />
     <allow-navigation href="https://*.instagram.com/" />
+    <allow-intent href="https://*.facebook.com/" />
+    <allow-intent href="https://*.twitter.com/" />
+    <allow-intent href="https://*.instagram.com/" />
     <access origin="*" />
     <preference name="permissions" value="none" />
 </widget>

@@ -12,6 +12,9 @@
         },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.gellifique.justshop"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.gellifique.justshop"
         }
     },
     "dependent_plugins": {}
