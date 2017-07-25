@@ -24,9 +24,12 @@
     <allow-navigation href="http://www.google-analytics.com/" />
     <allow-navigation href="https://oss.maxcdn.com/" />
     <!-- <allow-intent href="*" /> -->
-    <allow-intent href="*://*.facebook.com/" />
-    <allow-intent href="*://*.twitter.com/" />
-    <allow-intent href="*://*.instagram.com/" />
+    <allow-intent href="http://*.facebook.com/" />
+    <allow-intent href="http://*.twitter.com/" />
+    <allow-intent href="http://*.instagram.com/" />
+    <allow-intent href="https://*.facebook.com/" />
+    <allow-intent href="https://*.twitter.com/" />
+    <allow-intent href="https://*.instagram.com/" />
 
 
     <access origin="*" /> <!-- Required for iOS9 -->
