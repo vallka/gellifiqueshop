@@ -15,22 +15,25 @@
     <!-- PLUGINS * PLUGINS * PLUGINS -->
     <plugin name="cordova-plugin-device"         source="npm"  />
     <plugin name="cordova-plugin-whitelist"      source="npm"  />
-    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
 
     <!-- WHITELIST * WHITELIST * WHITELIST -->
     <!-- https://github.com/jessemonroy650/top-phonegap-mistakes/blob/master/the-whitelist-system.md -->
+    <!--
     <allow-navigation href="http://*.gellifique.co.uk/" />
     <allow-navigation href="http://fonts.googleapis.com/" />
     <allow-navigation href="http://www.google-analytics.com/" />
     <allow-navigation href="https://oss.maxcdn.com/" />
-    <!-- <allow-intent href="*" /> -->
     <allow-intent href="http://*.facebook.com/" />
     <allow-intent href="http://*.twitter.com/" />
     <allow-intent href="http://*.instagram.com/" />
     <allow-intent href="https://*.facebook.com/" />
     <allow-intent href="https://*.twitter.com/" />
     <allow-intent href="https://*.instagram.com/" />
+    -->
 
+    <!-- <allow-intent href="*" /> -->
+
+    <allow-navigation href="*" />
 
     <access origin="*" allows-arbitrary-loads-in-web-content='true' /> <!-- Required for iOS9 -->
 
