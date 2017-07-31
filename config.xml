@@ -32,7 +32,7 @@
     <allow-intent href="https://*.instagram.com/" />
 
 
-    <access origin="*" /> <!-- Required for iOS9 -->
+    <access origin="*" allows-arbitrary-loads-in-web-content='true' /> <!-- Required for iOS9 -->
 
     <platform name="android">
         <icon density="ldpi" src="www/res/icon/android/ldpi-icon.png" />               <!-- 192 -->
