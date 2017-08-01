@@ -41,13 +41,6 @@ setTimeout(function() {
 $(document).ready(function(){
   $('iframe').on("load",function(){
 
-    if (device.platform === "iOS") {
-      alert(navigator.userAgent)
-    }
-    else if (device.platform === "Android") {
-      alert(navigator.userAgent)
-    }
-
 
     $('#loading').hide();
   });
