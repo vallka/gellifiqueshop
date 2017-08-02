@@ -15,6 +15,19 @@
         },
         "cordova-plugin-splashscreen": {
             "PACKAGE_NAME": "com.gellifique.justshop"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.gellifique.justshop"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "XXXXXXX",
+            "PACKAGE_NAME": "com.gellifique.justshop"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.gellifique.justshop"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "com.gellifique.justshop"
         }
     },
     "dependent_plugins": {}
